@@ -28,4 +28,4 @@ cd quiz-app
 # Install dependencies
 npm install
 # Start the app
-npm start
+npm run dev

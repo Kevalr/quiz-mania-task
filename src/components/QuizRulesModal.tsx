@@ -9,9 +9,9 @@ const QuizRulesModal: React.FC<QuizRulesModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center backdrop-blur-sm bg-opacity-30 p-4 z-50">
-      <div className="bg-white rounded-lg w-full max-w-3xl shadow-lg">
-        <div className="flex justify-between items-center p-6 pb-2">
+    <div className="fixed inset-0 flex items-center justify-center backdrop-blur-sm bg-opacity-30 p-4 z-50 overflow-y-auto">
+      <div className="bg-white rounded-lg w-full max-w-3xl shadow-lg my-4 max-h-full">
+        <div className="flex justify-between items-center p-6 pb-2 sticky top-0 bg-white z-10">
           <h2 className="text-2xl font-bold text-gray-800">Quiz rules</h2>
           <button
             onClick={onClose}
@@ -22,7 +22,7 @@ const QuizRulesModal: React.FC<QuizRulesModalProps> = ({ isOpen, onClose }) => {
           </button>
         </div>
 
-        <div className="p-6 pt-2 items-start">
+        <div className="p-6 pt-2 overflow-y-auto max-h-[70vh]">
           <div className="mb-6 rounded-md">
             <h3 className="font-extrabold mb-3 bg-[#f3f3e9] p-3 text-left rounded-md">
               10-Second Timer

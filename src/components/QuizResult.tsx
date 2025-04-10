@@ -46,7 +46,7 @@ const QuizResult: React.FC<ScoreCardProps> = ({
   };
 
   return (
-    <div className="bg-gray-50 max-w-md mx-auto p-8 flex flex-col items-center text-center">
+    <div className="bg-gray-50 mt-10 max-w-md mx-auto p-8 flex flex-col items-center text-center">
       <div className={`rounded-full p-3 mb-4 ${getCircleColor(score)}`}>
         {score >= 50 ? (
           <svg

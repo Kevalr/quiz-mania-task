@@ -140,7 +140,7 @@
             "D. A function that closes over multiple functions"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q2",
@@ -152,7 +152,7 @@
             "D. Both are block scoped"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q3",
@@ -164,7 +164,7 @@
             "D. The parent function"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q4",
@@ -176,7 +176,7 @@
             "D. 'number'"
           ],
           "correctAnswer": "D",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q5",
@@ -188,7 +188,7 @@
             "D. undefined"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q6",
@@ -200,7 +200,7 @@
             "D. Promise(function(resolve, reject) { ... })"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q7",
@@ -212,7 +212,7 @@
             "D. To handle promises using try/catch only"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q8",
@@ -224,7 +224,7 @@
             "D. Object.merge()"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q9",
@@ -236,7 +236,7 @@
             "D. splice()"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q10",
@@ -248,7 +248,7 @@
             "D. Freeze the object"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         }
       ]
     },
@@ -266,7 +266,7 @@
             "D. npm new react myApp"
           ],
           "correctAnswer": "A",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q2",
@@ -278,7 +278,7 @@
             "D. A package manager"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q3",
@@ -290,7 +290,7 @@
             "D. React.attach()"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q4",
@@ -302,7 +302,7 @@
             "D. A React hook"
           ],
           "correctAnswer": "A",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q5",
@@ -314,7 +314,7 @@
             "D. useRef()"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q6",
@@ -326,7 +326,7 @@
             "D. Using events"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q7",
@@ -338,7 +338,7 @@
             "D. 8000"
           ],
           "correctAnswer": "A",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q8",
@@ -350,7 +350,7 @@
             "D. Keys are used to encrypt props"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q9",
@@ -362,7 +362,7 @@
             "D. componentDidUpdate"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q10",
@@ -374,7 +374,7 @@
             "D. A Node.js module"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         }
       ]
     },
@@ -392,7 +392,7 @@
             "D. To update props"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q2",
@@ -404,7 +404,7 @@
             "D. To delay the effect"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q3",
@@ -416,7 +416,7 @@
             "D. Using setTimeout"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q4",
@@ -428,7 +428,7 @@
             "D. useEffect()"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q5",
@@ -440,7 +440,7 @@
             "D. There is no difference"
           ],
           "correctAnswer": "A",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q6",
@@ -452,7 +452,7 @@
             "D. Cache network requests"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q7",
@@ -464,7 +464,7 @@
             "D. useEffect chain"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q8",
@@ -476,7 +476,7 @@
             "D. It’s only used in class components"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q9",
@@ -488,7 +488,7 @@
             "D. Real-time data handling"
           ],
           "correctAnswer": "C",
-          "timeLimit": 15
+          "timeLimit": 10
         },
         {
           "id": "q10",
@@ -500,7 +500,7 @@
             "D. Creates a deep copy of state"
           ],
           "correctAnswer": "B",
-          "timeLimit": 15
+          "timeLimit": 10
         }
       ]
     }

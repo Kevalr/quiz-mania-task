@@ -26,7 +26,7 @@ const Quiz: React.FC<QuizProps> = ({ category, onQuizComplete }) => {
       category.questions.forEach((question) => {
         if (answers[question.id] === question.correctAnswer) {
           score.correct++;
-        } else {
+        } else if(Boolean(answers[question.id]) && (answers[question.id] !== question.correctAnswer)){
           score.wrong++;
         }
       });
@@ -57,7 +57,7 @@ const Quiz: React.FC<QuizProps> = ({ category, onQuizComplete }) => {
   const selectedAnswer = answers[currentQuestion.id];
 
   return (
-    <div className="w-full max-w-3xl mx-auto p-4 bg-gray-50 rounded-lg shadow-sm">
+    <div className="w-full max-w-3xl mx-auto p-4 mt-10 bg-gray-50 rounded-lg shadow-sm">
       {/* Top progress bar and counter */}
       <div className="mb-8">
         <div className="flex justify-between items-center mb-2">
