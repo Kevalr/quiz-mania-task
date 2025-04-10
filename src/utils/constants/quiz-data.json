@@ -1,0 +1,508 @@
+{
+  "categories": [
+     {
+      "id": "js_basics",
+      "name": "JavaScript Basics",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+          "options": [
+            "A. <script name='script.js'>",
+            "B. <script href='script.js'>",
+            "C. <script src='script.js'>",
+            "D. <script file='script.js'>"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q2",
+          "question": "Which company developed JavaScript?",
+          "options": [
+            "A. Microsoft",
+            "B. Netscape",
+            "C. Google",
+            "D. Mozilla"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q3",
+          "question": "Inside which HTML element do we put the JavaScript?",
+          "options": [
+            "A. <js>",
+            "B. <scripting>",
+            "C. <javascript>",
+            "D. <script>"
+          ],
+          "correctAnswer": "D",
+          "timeLimit": 10
+        },
+        {
+          "id": "q4",
+          "question": "How do you write 'Hello World' in an alert box?",
+          "options": [
+            "A. alertBox('Hello World');",
+            "B. msg('Hello World');",
+            "C. alert('Hello World');",
+            "D. msgBox('Hello World');"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q5",
+          "question": "How do you create a function in JavaScript?",
+          "options": [
+            "A. function:myFunction()",
+            "B. function = myFunction()",
+            "C. function myFunction()",
+            "D. create myFunction()"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q6",
+          "question": "How do you call a function named 'myFunction'?",
+          "options": [
+            "A. call function myFunction()",
+            "B. myFunction()",
+            "C. call myFunction()",
+            "D. Call.myFunction()"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q7",
+          "question": "How do you write an IF statement in JavaScript?",
+          "options": [
+            "A. if i == 5 then",
+            "B. if i = 5",
+            "C. if (i == 5)",
+            "D. if i = 5 then"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        },
+        {
+          "id": "q8",
+          "question": "How does a WHILE loop start?",
+          "options": [
+            "A. while (i <= 10)",
+            "B. while i = 1 to 10",
+            "C. while (i <= 10; i++)",
+            "D. while i <= 10"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 10
+        },
+        {
+          "id": "q9",
+          "question": "How can you add a comment in JavaScript?",
+          "options": [
+            "A. <!--This is a comment-->",
+            "B. // This is a comment",
+            "C. ## This is a comment",
+            "D. ** This is a comment **"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 10
+        },
+        {
+          "id": "q10",
+          "question": "What is the correct way to write a JavaScript array?",
+          "options": [
+            "A. var colors = 'red', 'green', 'blue'",
+            "B. var colors = 1 = ('red', 'green', 'blue')",
+            "C. var colors = ['red', 'green', 'blue']",
+            "D. var colors = (1:'red', 2:'green', 3:'blue')"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 10
+        }
+      ]
+    },
+    {
+      "id": "js_advanced",
+      "name": "JavaScript Advanced",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is a closure in JavaScript?",
+          "options": [
+            "A. A function having access to its own scope only",
+            "B. A function having access to global scope only",
+            "C. A function having access to the parent scope even after the parent function has closed",
+            "D. A function that closes over multiple functions"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q2",
+          "question": "Which of the following is true about 'let' and 'var'?",
+          "options": [
+            "A. Both are function scoped",
+            "B. let is block scoped and var is function scoped",
+            "C. var is block scoped and let is function scoped",
+            "D. Both are block scoped"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        },
+        {
+          "id": "q3",
+          "question": "What does the 'this' keyword refer to in a regular function?",
+          "options": [
+            "A. The function itself",
+            "B. The global object (window in browsers)",
+            "C. The nearest object",
+            "D. The parent function"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        },
+        {
+          "id": "q4",
+          "question": "What will be the result of: typeof NaN?",
+          "options": [
+            "A. 'NaN'",
+            "B. 'undefined'",
+            "C. 'object'",
+            "D. 'number'"
+          ],
+          "correctAnswer": "D",
+          "timeLimit": 15
+        },
+        {
+          "id": "q5",
+          "question": "What is the output of: console.log([] + [])?",
+          "options": [
+            "A. []",
+            "B. 0",
+            "C. '' (empty string)",
+            "D. undefined"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q6",
+          "question": "How do you create a Promise in JavaScript?",
+          "options": [
+            "A. new Promise(resolve, reject)",
+            "B. Promise.create(resolve, reject)",
+            "C. new Promise(function(resolve, reject) { ... })",
+            "D. Promise(function(resolve, reject) { ... })"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q7",
+          "question": "What is the purpose of the async/await syntax?",
+          "options": [
+            "A. To create asynchronous functions with callbacks",
+            "B. To write asynchronous code that looks synchronous",
+            "C. To pause synchronous functions",
+            "D. To handle promises using try/catch only"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        },
+        {
+          "id": "q8",
+          "question": "Which method is used to copy all enumerable properties from one or more objects to a target object?",
+          "options": [
+            "A. Object.clone()",
+            "B. Object.assign()",
+            "C. Object.copy()",
+            "D. Object.merge()"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        },
+        {
+          "id": "q9",
+          "question": "Which of these array methods returns a new array without modifying the original?",
+          "options": [
+            "A. push()",
+            "B. pop()",
+            "C. map()",
+            "D. splice()"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q10",
+          "question": "What will 'const obj = {a: 1}; obj.a = 2;' do?",
+          "options": [
+            "A. Throw an error because const objects are immutable",
+            "B. Successfully change the value of 'a' to 2",
+            "C. Reassign the object to a new one",
+            "D. Freeze the object"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        }
+      ]
+    },
+    {
+      "id": "react_basics",
+      "name": "React JS Basics",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the correct command to create a new React project?",
+          "options": [
+            "A. npx create-react-app myApp",
+            "B. npm install react-app",
+            "C. npx install react",
+            "D. npm new react myApp"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 15
+        },
+        {
+          "id": "q2",
+          "question": "What is a React component?",
+          "options": [
+            "A. A CSS file",
+            "B. A reusable piece of UI",
+            "C. A database connection",
+            "D. A package manager"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        },
+        {
+          "id": "q3",
+          "question": "Which method is used to render React elements into the DOM?",
+          "options": [
+            "A. ReactDOM.insert()",
+            "B. React.mount()",
+            "C. ReactDOM.render()",
+            "D. React.attach()"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q4",
+          "question": "What is JSX?",
+          "options": [
+            "A. A syntax extension for JavaScript",
+            "B. A new programming language",
+            "C. A type of CSS",
+            "D. A React hook"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 15
+        },
+        {
+          "id": "q5",
+          "question": "Which hook is used to manage state in a functional component?",
+          "options": [
+            "A. useClass()",
+            "B. useEffect()",
+            "C. useState()",
+            "D. useRef()"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q6",
+          "question": "How do you pass data from parent to child component in React?",
+          "options": [
+            "A. Using callbacks",
+            "B. Using Redux",
+            "C. Using props",
+            "D. Using events"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q7",
+          "question": "What is the default port for a React development server?",
+          "options": [
+            "A. 3000",
+            "B. 5000",
+            "C. 8080",
+            "D. 8000"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 15
+        },
+        {
+          "id": "q8",
+          "question": "Which of the following is true about React keys?",
+          "options": [
+            "A. Keys must be unique only globally",
+            "B. Keys are required for all JSX elements",
+            "C. Keys help React identify which items have changed",
+            "D. Keys are used to encrypt props"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q9",
+          "question": "Which lifecycle method is called after a component is rendered?",
+          "options": [
+            "A. componentWillMount",
+            "B. componentDidMount",
+            "C. componentWillUnmount",
+            "D. componentDidUpdate"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        },
+        {
+          "id": "q10",
+          "question": "What is the virtual DOM in React?",
+          "options": [
+            "A. A browser feature for memory optimization",
+            "B. A copy of the real DOM kept in memory",
+            "C. A third-party package for DOM manipulation",
+            "D. A Node.js module"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        }
+      ]
+    },
+    {
+      "id": "react_advanced",
+      "name": "React JS Advanced",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the purpose of the useEffect hook in React?",
+          "options": [
+            "A. To manage global state",
+            "B. To perform side effects in function components",
+            "C. To render JSX conditionally",
+            "D. To update props"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        },
+        {
+          "id": "q2",
+          "question": "What is the second argument of useEffect used for?",
+          "options": [
+            "A. To set state",
+            "B. To declare dependencies",
+            "C. To return JSX",
+            "D. To delay the effect"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        },
+        {
+          "id": "q3",
+          "question": "How can you optimize performance in React by preventing unnecessary re-renders?",
+          "options": [
+            "A. Using useEffect everywhere",
+            "B. Using useMemo and React.memo",
+            "C. Using multiple state hooks",
+            "D. Using setTimeout"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        },
+        {
+          "id": "q4",
+          "question": "Which hook would you use to reference a DOM element directly?",
+          "options": [
+            "A. useState()",
+            "B. useMemo()",
+            "C. useRef()",
+            "D. useEffect()"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q5",
+          "question": "What is the difference between useMemo and useCallback?",
+          "options": [
+            "A. useMemo returns a memoized value, useCallback returns a memoized function",
+            "B. useMemo is for async, useCallback is for sync",
+            "C. useMemo is for DOM elements, useCallback is for props",
+            "D. There is no difference"
+          ],
+          "correctAnswer": "A",
+          "timeLimit": 15
+        },
+        {
+          "id": "q6",
+          "question": "What does React.lazy() allow you to do?",
+          "options": [
+            "A. Lazy load state",
+            "B. Delay rendering until DOM is ready",
+            "C. Dynamically import components",
+            "D. Cache network requests"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q7",
+          "question": "How do you share state between deeply nested components without prop drilling?",
+          "options": [
+            "A. Redux only",
+            "B. useState with deep props",
+            "C. useContext hook",
+            "D. useEffect chain"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q8",
+          "question": "Which of the following is true about React.Fragment?",
+          "options": [
+            "A. It creates a DOM node wrapper",
+            "B. It returns multiple elements without extra nodes",
+            "C. It slows down rendering",
+            "D. It’s only used in class components"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        },
+        {
+          "id": "q9",
+          "question": "What is the main advantage of server-side rendering (SSR) in React?",
+          "options": [
+            "A. Smaller component size",
+            "B. Faster state updates",
+            "C. Better SEO and initial load performance",
+            "D. Real-time data handling"
+          ],
+          "correctAnswer": "C",
+          "timeLimit": 15
+        },
+        {
+          "id": "q10",
+          "question": "What will React.memo() do?",
+          "options": [
+            "A. Memoizes a DOM element",
+            "B. Prevents a component from re-rendering if props haven’t changed",
+            "C. Saves JSX output in localStorage",
+            "D. Creates a deep copy of state"
+          ],
+          "correctAnswer": "B",
+          "timeLimit": 15
+        }
+      ]
+    }
+  ]
+}
